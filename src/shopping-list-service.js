@@ -4,6 +4,7 @@ const ShoppingListService = {
       .select('*')
       .from('shopping_list');
   },
+	
   getById(knex, id) {
     return knex
       .from('shopping_list')
